@@ -4,6 +4,8 @@ brew cask install java  # install latest Java version
 brew install maven      # Leading Java build tool
 brew install gradle     # Alternative Java build tool
 brew install groovysdk  # Install groovy
+
+brew tap pivotal/tap
 brew install springboot # Install Spring boot
 
 echo
