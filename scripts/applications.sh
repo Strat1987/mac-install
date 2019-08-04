@@ -18,7 +18,6 @@ brew cask install enpass
 brew cask install bitwarden
 brew cask install bettertouchtool
 brew cask install go2shell
-brew cask install vlc
 brew cask install the-unarchiver
 brew cask install tunnelblick
 brew cask install cyberduck
@@ -27,6 +26,10 @@ brew cask install balenaetcher
 brew install wget
 brew cask install disk-inventory-x
 brew cask install arq
+brew cask install charles
+brew cask install coconutbattery
+brew cask install gas-mask
+brew cask install shiftit
 
 # control Mac Media Keys
 brew cask install beardedspice
@@ -88,22 +91,32 @@ brew cask install brave-browser
 brew tap caskroom/versions
 brew cask install google-chrome-canary
 
+brew cask install chromedriver
+
 # Communication
 
+brew cask install franz
+brew cask install microsoft-teams
 brew cask install slack
-brew cask install rambox
-#brew cask install franz
-#brew cask install nylas-n1
+# brew cask install rambox
 
-brew cask install telegram
+# brew cask install telegram
 brew cask install skype
+brew cask install skype-for-business
 
 # (Text) Editors
 
 brew cask install sublime-text
 brew cask install atom
+brew cask install brackets
 brew install macvim
 brew cask install xmind
+brew cask install mactex
+
+# Fonts
+brew install fontconfig
+brew install freetype
+brew cask install skyfonts
 
 # (Code) Editor(s) - IDE > Integrated development environment
 
@@ -121,6 +134,9 @@ else
     cat files/gitconfig-vscode-default-difftool >> ~/.gitconfig
 fi
 
+# BPMN Modeler
+brew cask install camunda-modeler
+
 # Markdown
 brew cask install marked
 brew cask install macdown
@@ -128,6 +144,7 @@ brew cask install abricotine
 
 # Graphics tools
 
+brew cask install gimp
 brew cask install skitch
 brew cask install zeplin
 brew cask install pencil
@@ -141,14 +158,22 @@ brew tap justinmayer/tap
 brew tap-pin justinmayer/tap
 brew install ffmpeg --with-chromaprint --with-fdk-aac
 # includes support WebM: ffmpeg -i video.mp4 -strict -2 video.webm
+brew cask install kodi
+brew cask install vlc
+brew install youtube-dl
 
 # Screen recorder
 
 brew cask install kap
 
+# Audio
+brew cask install bose-soundtouch
+brew cask install spotify
+
 # Other
 
 brew cask install evernote
+brew cask install garmin-express
 brew cask install kindle
 brew cask install marshallofsound-google-play-music-player
 
@@ -157,14 +182,11 @@ brew cask install marshallofsound-google-play-music-player
 brew cask install knockknock
 brew cask install blockblock
 
-# Emulation tools
-
-#brew cask install virtualbox
+# Gaming
+brew cask install steam
+brew cask install steelseries-engine
 
 # Useful scripts
-
-brew install youtube-dl
-
 
 brew cask install veracrypt
 # VeraCrypt config: by default VeraCrypt will not alter the timestamp of the volume after it has been created

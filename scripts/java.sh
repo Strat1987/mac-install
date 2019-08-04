@@ -1,8 +1,10 @@
 echo
 echo "Installing Java Development tools"
-brew cask install java # install latest Java version
-brew install maven     # Leading Java build tool
-brew install gradle    # Alternative Java build tool
+brew cask install java  # install latest Java version
+brew install maven      # Leading Java build tool
+brew install gradle     # Alternative Java build tool
+brew install groovysdk  # Install groovy
+brew install springboot # Install Spring boot
 
 echo
 echo "Installing Java 8"

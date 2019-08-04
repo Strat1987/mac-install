@@ -9,3 +9,10 @@ brew install dive
 
 # Amazon ECR Docker Credential Helper
 brew install docker-credential-helper-ecr
+
+# Kubernetes Helm charts
+brew install kubernetes-helm
+
+# Local Kubernetes Cluster
+brew cask install minikube
+
