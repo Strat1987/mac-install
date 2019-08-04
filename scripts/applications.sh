@@ -3,15 +3,15 @@ echo "Installing applications"
 
 # Utilities
 
+brew cask install authy
 brew cask install flux
 brew cask install flycut
 brew cask install spectacle
-#brew cask install google-drive
+brew cask install google-drive
 brew cask install google-backup-and-sync
 brew cask install dropbox
 brew cask install cheatsheet
 brew cask install macpass
-#brew cask install keepassx
 brew cask install keepassxc
 brew cask install keeweb
 brew cask install enpass
@@ -27,6 +27,7 @@ brew cask install balenaetcher
 brew install wget
 brew cask install disk-inventory-x
 brew cask install arq
+
 # control Mac Media Keys
 brew cask install beardedspice
 brew cask install keybase
