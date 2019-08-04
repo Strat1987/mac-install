@@ -34,7 +34,7 @@ source ${MY_DIR}/configuration-osx.sh "$fullname" $emailaddress "$phonenumber"
 source ${MY_DIR}/configuration-terminal.sh
 source ${MY_DIR}/git.sh "$fullname" $emailaddress
 source ${MY_DIR}/java.sh
-source ${MY_DIR}/scala.sh
+# source ${MY_DIR}/scala.sh
 source ${MY_DIR}/android.sh
 source ${MY_DIR}/js.sh
 source ${MY_DIR}/cli.sh
