@@ -22,6 +22,11 @@ cd mac-install
 
 If you're setting up a machine run the following:
 
+
+First run the [manual installation instructions](files/OSX_manual_installation_instructions.pdf)
+
+followed by automated machine setup using the shell script below
+
 ```sh
 ./setup-machine.sh
 ```
