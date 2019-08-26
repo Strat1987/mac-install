@@ -7,7 +7,6 @@ brew cask install authy
 brew cask install flux
 brew cask install flycut
 brew cask install spectacle
-brew cask install google-drive
 brew cask install google-backup-and-sync
 brew cask install dropbox
 brew cask install cheatsheet
