@@ -24,8 +24,8 @@ brew cask install ngrok
 
 # DB
 brew cask install postgres # postgresql
-brew cask install mariadb # mariadb
-brew install sqllite # sqllite
+brew install mariadb # mariadb
+brew install sqlite # sqlite
 
 ## GUIs
 brew cask install sequel-pro # mysql
