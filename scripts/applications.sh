@@ -154,7 +154,6 @@ brew cask install handbrake
 # Homebrew removed formula options as of Homebrew version 2.0
 # so no more using the core ffmpeg formula
 brew tap justinmayer/tap
-brew tap-pin justinmayer/tap
 brew install ffmpeg --with-chromaprint --with-fdk-aac
 # includes support WebM: ffmpeg -i video.mp4 -strict -2 video.webm
 brew cask install kodi
