@@ -1,6 +1,9 @@
 echo
 echo "Installing applications"
 
+# Enable installation of cask drivers
+brew tap homebrew/cask-drivers
+
 # Utilities
 
 brew cask install authy
