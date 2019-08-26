@@ -25,7 +25,6 @@ brew cask install tunnelblick
 brew cask install cyberduck
 brew cask install mirrordisplays
 brew cask install balenaetcher
-brew install wget
 brew cask install disk-inventory-x
 brew cask install arq
 brew cask install charles
