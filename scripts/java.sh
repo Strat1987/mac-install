@@ -33,8 +33,15 @@ done
 # Set Java 8 as default
 jenv global 1.8
 
+jenv doctor
+
+# - reload ZSH dotifile to be able to enable jenv plugins
+source ~/.zshrc
+
 # Force jenv to update JAVA_HOME
 jenv enable-plugin export
 
 # link jenv with maven
 jenv enable-plugin maven
+
+jenv doctor
