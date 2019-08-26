@@ -22,9 +22,9 @@ echo 'eval "$(jenv init -)"' >>~/.zshrc
 # - reload ZSH dotifile
 source ~/.zshrc
 
-for jdk in /Library/Java/JavaVirtualMachines; do
-  if [[ -d jdk ]]; then
-    jenv add /Library/Java/JavaVirtualMachines/$jdk/Contents/Home
+for jdk in /Library/Java/JavaVirtualMachines/*/; do
+  if [[ -d $jdk ]]; then
+    jenv add $jdkContents/Home
     ## ERROR : needed to	- customize the PATH export to include brew paths
     ### path export export PATH="$HOME/.jenv/bin:$HOME/bin:/usr/local/bin:$PATH"
   fi
