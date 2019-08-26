@@ -10,8 +10,8 @@ brew install springboot # Install Spring boot
 
 echo
 echo "Installing Java 8"
-brew tap caskroom/versions # allow brew to lookup other Java versions
-brew cask install java8    # install most commonly production used Java version
+brew tap adoptopenjdk/openjdk     # allow brew to lookup other Java versions
+brew cask install adoptopenjdk8   # install most commonly production used Java version
 
 echo
 echo "Installing jenv to support multiple Java versions"
