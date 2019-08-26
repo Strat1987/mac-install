@@ -26,12 +26,11 @@ read phonenumber
 echo
 echo "Setting up machine..."
 
-# source ${MY_DIR}/xcode-license.sh
+source ${MY_DIR}/xcode-license.sh
 
 # Note: Homebrew needs to be set up first
 source ${MY_DIR}/homebrew.sh
 source ${MY_DIR}/configuration-osx.sh "$fullname" $emailaddress "$phonenumber"
-source ${MY_DIR}/configuration-terminal.sh
 source ${MY_DIR}/git.sh "$fullname" $emailaddress
 source ${MY_DIR}/java.sh
 source ${MY_DIR}/js.sh
@@ -42,5 +41,6 @@ source ${MY_DIR}/docker.sh
 source ${MY_DIR}/general-dev.sh
 source ${MY_DIR}/appstore.sh
 source ${MY_DIR}/configurations.sh
+source ${MY_DIR}/configuration-terminal.sh
 
 source ${MY_DIR}/finished.sh

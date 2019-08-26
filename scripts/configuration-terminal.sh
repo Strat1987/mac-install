@@ -5,9 +5,14 @@ brew install zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-echo
-echo "Adding Homebrew's sbin to your PATH..."
-echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
+# add bashrc customizations to zsh
+cat ~/.bashrc >> ~/.zshrc
+
+# set Oh My ZSH plugins
+sed -i 's/# plugins=.*/plugins=(common-aliases.sh docker git mvn npm osx vscode zsh-nvm yarn)/' ~/.zshrc
 
 # reload zsh
-source ~/.zshrc
+currentDir=${pwd}
+cd ~
+. .zshrc
+cd $currentDir

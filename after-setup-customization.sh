@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# set Oh My ZSH plugins
-sed -i 's/# plugins=.*/plugins=(common-aliases.sh docker git mvn npm osx vscode zsh-nvm yarn)/' ~/.zshrc
-
 # Bonjour name ending in .local
 scutil --set LocalHostName "0x66696c6970"
 # Friendly name shown in System Preferences > Sharing

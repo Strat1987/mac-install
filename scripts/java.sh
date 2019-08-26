@@ -16,11 +16,15 @@ echo
 echo "Installing jenv to support multiple Java versions"
 brew install jenv # Support multiple Java versions (https://www.jenv.be/)
 
-echo 'export PATH="$HOME/.jenv/bin:$PATH"' >>~/.zshrc
-echo 'eval "$(jenv init -)"' >>~/.zshrc
+echo 'export PATH="$HOME/.jenv/bin:$PATH"' >>~/.bashrc
+echo 'eval "$(jenv init -)"' >>~/.bashrc
 
-# - reload ZSH dotifile
-source ~/.zshrc
+# - reload bash dotifiles
+currentDir=${pwd}
+cd ~
+. .bash_profile
+. .bashrc
+cd $currentDir
 
 for jdk in /Library/Java/JavaVirtualMachines/*/; do
   if [[ -d $jdk ]]; then
@@ -35,8 +39,12 @@ jenv global 1.8
 
 jenv doctor
 
-# - reload ZSH dotifile to be able to enable jenv plugins
-source ~/.zshrc
+# - reload bash dotifiles to be able to enable jenv plugins
+currentDir=${pwd}
+cd ~
+. .bash_profile
+. .bashrc
+cd $currentDir
 
 # Force jenv to update JAVA_HOME
 jenv enable-plugin export
