@@ -28,7 +28,8 @@ brew install mariadb # mariadb
 brew install sqlite # sqlite
 
 ## GUIs
-brew cask install sequel-pro # mysql
+brew cask install sequel-pro # mysql (can't connect to mysql in docker without password)
+brew cask install dbeaver-community # mysql (can connect to mysql in docker without password)
 brew cask install robo-3t # mongo
 brew cask install db-browser-for-sqlite # sqlite
 brew cask install postico # postgresql UI
