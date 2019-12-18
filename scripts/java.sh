@@ -8,6 +8,7 @@ brew install groovysdk  # Install groovy
 brew tap pivotal/tap
 brew install springboot # Install Spring boot
 
+brew tap AdoptOpenJDK/openjdk # add openjdk tap
 echo
 echo "Installing Java 8"
 brew cask install adoptopenjdk8   # install most commonly production used Java version
