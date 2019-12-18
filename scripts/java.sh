@@ -12,6 +12,9 @@ echo
 echo "Installing Java 8"
 brew cask install adoptopenjdk8   # install most commonly production used Java version
 
+echo "Installing Java 11"
+brew cask install adoptopenjdk11   # install latest LTS Java version
+
 echo
 echo "Installing jenv to support multiple Java versions"
 brew install jenv # Support multiple Java versions (https://www.jenv.be/)
