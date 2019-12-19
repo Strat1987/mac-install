@@ -1,6 +1,5 @@
 echo
 echo "Installing Java Development tools"
-brew cask install java  # install latest Java version
 brew install maven      # Leading Java build tool
 brew install gradle     # Alternative Java build tool
 brew install groovysdk  # Install groovy
@@ -15,6 +14,9 @@ brew cask install adoptopenjdk8   # install most commonly production used Java v
 
 echo "Installing Java 11"
 brew cask install adoptopenjdk11   # install latest LTS Java version
+
+echo "Installing Java 13"
+brew cask install adoptopenjdk13   # install latest Java version
 
 echo
 echo "Installing jenv to support multiple Java versions"
