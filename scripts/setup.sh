@@ -45,7 +45,6 @@ source ${MY_DIR}/homebrew.sh
 source ${MY_DIR}/configuration-osx.sh "$fullname" $emailaddress "$phonenumber"
 source ${MY_DIR}/git.sh "$fullname" $emailaddress
 source ${MY_DIR}/java.sh
-source ${MY_DIR}/js.sh
 source ${MY_DIR}/cli.sh
 source ${MY_DIR}/applications.sh
 source ${MY_DIR}/fonts.sh
@@ -54,5 +53,6 @@ source ${MY_DIR}/general-dev.sh
 source ${MY_DIR}/appstore.sh
 source ${MY_DIR}/configurations.sh
 source ${MY_DIR}/configuration-terminal.sh
-
+source ${MY_DIR}/js.sh
+source ${MY_DIR}/reload-terminal.sh
 source ${MY_DIR}/finished.sh

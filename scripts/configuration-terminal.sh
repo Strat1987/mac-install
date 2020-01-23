@@ -9,10 +9,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 cat ~/.bashrc >> ~/.zshrc
 
 # set Oh My ZSH plugins
-sed -i 's/# plugins=.*/plugins=(common-aliases.sh docker git mvn npm osx vscode zsh-nvm yarn)/' ~/.zshrc
-
-# reload zsh
-currentDir=${pwd}
-cd ~
-. .zshrc
-cd $currentDir
+sed -i '.bak' 's/plugins=.*/plugins=(common-aliases docker git mvn npm osx vscode zsh-nvm yarn)/' ~/.zshrc

@@ -33,6 +33,7 @@ brew cask install dbeaver-community # mysql (can connect to mysql in docker with
 brew cask install robo-3t # mongo
 brew cask install db-browser-for-sqlite # sqlite
 brew cask install postico # postgresql UI
+brew cask install mysqlworkbench
 
 #brew cask install dash
 

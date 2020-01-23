@@ -3,6 +3,7 @@ function installMacAppStoreApps {
   echo "Installing through the App Store"
   # mas-cli = command line interface for the Mac App Store
   brew install mas
+  # TODO how to login to mas from CLI?
   # apps are installed with their Mac App Store product identifier
   # 'Pixelmator', id: 407963104
   mas install 407963104

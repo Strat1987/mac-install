@@ -9,7 +9,7 @@ brew tap homebrew/cask-drivers
 brew cask install authy
 brew cask install flux
 brew cask install flycut
-brew cask install spectacle
+brew cask install spectacle # OR > brew cask install shiftit
 brew cask install google-backup-and-sync
 brew cask install dropbox
 brew cask install cheatsheet
@@ -29,18 +29,15 @@ brew cask install disk-inventory-x
 brew cask install arq
 brew cask install charles
 brew cask install coconutbattery
-brew cask install gas-mask
-brew cask install shiftit
-
-# control Mac Media Keys
+brew cask install gas-mask # custom HOSTS files that can be dynamically switched
 brew cask install beardedspice
-brew cask install keybase
+brew cask install keybase # control Mac Media Keys
 brew cask install vnc-viewer
 brew cask install grandperspective
 brew cask install calibre
 brew cask install iina
 brew cask install anki
-brew cask install microsoft-remote-desktop-beta
+brew cask install homebrew/cask-versions/microsoft-remote-desktop-beta
 brew cask install libreoffice
 brew cask install aerial
 
@@ -100,10 +97,8 @@ brew cask install franz
 brew cask install microsoft-teams
 brew cask install slack
 # brew cask install rambox
-
 # brew cask install telegram
 brew cask install skype
-brew cask install skype-for-business
 
 # (Text) Editors
 
@@ -156,7 +151,7 @@ brew cask install handbrake
 # Homebrew removed formula options as of Homebrew version 2.0
 # so no more using the core ffmpeg formula
 brew tap justinmayer/tap
-brew install ffmpeg --with-chromaprint --with-fdk-aac
+brew install justinmayer/tap/ffmpeg --with-chromaprint --with-fdk-aac
 # includes support WebM: ffmpeg -i video.mp4 -strict -2 video.webm
 brew cask install kodi
 brew cask install vlc
@@ -179,11 +174,6 @@ brew cask install garmin-express
 brew cask install kindle
 brew cask install marshallofsound-google-play-music-player
 
-# Security
-
-brew cask install knockknock
-brew cask install blockblock
-
 # Gaming
 brew cask install steam
 brew cask install steelseries-engine
@@ -198,9 +188,13 @@ brew cask install veracrypt
 # ditto (OSX-specific app) will create the directory structure that is missing in the destination
 ditto files/veracrypt-configuration.xml ~/"Library/Application Support/VeraCrypt/Configuration.xml"
 
-
 # Add the brew-cask-upgrade tool: allows to upgrade applications installed with homebrew cask
 # homebrew only has support for 'brew cask outdated', not yet 'brew cask upgrade'
 # See: https://github.com/buo/homebrew-cask-upgrade
 # apps can be updated with 'brew cu app'
 brew tap buo/cask-upgrade
+
+# Security
+
+brew cask install knockknock
+brew cask install blockblock

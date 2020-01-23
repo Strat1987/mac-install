@@ -1,0 +1,2 @@
+# reload zsh
+source ~/.zshrc
