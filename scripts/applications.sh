@@ -23,6 +23,7 @@ brew cask install go2shell
 brew cask install the-unarchiver
 brew cask install tunnelblick
 brew cask install cyberduck
+brew cask install mountain-duck
 brew cask install mirrordisplays
 brew cask install balenaetcher
 brew cask install disk-inventory-x
