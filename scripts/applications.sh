@@ -119,7 +119,7 @@ brew cask install skyfonts
 
 brew cask install intellij-idea # Best Java editor out there (does require an active licence).
 # brew cask install intellij-idea-ce # As an alternative you can install the free community edition
-brew cask install eclipse-ide # The second most popular Java editor which is free is Eclipse eclipse-ide
+brew cask install eclipse-jee # The second most popular Java editor which is free is Eclipse eclipse-ide
 
 brew cask install visual-studio-code # Code editor for front-end
 
@@ -178,6 +178,8 @@ brew cask install marshallofsound-google-play-music-player
 # Gaming
 brew cask install steam
 brew cask install steelseries-engine
+brew cask install discord
+brew cask install twitch
 
 # Useful scripts
 
