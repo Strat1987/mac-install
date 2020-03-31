@@ -167,6 +167,7 @@ brew cask install bose-soundtouch
 brew cask install spotify
 # Visualise spotify 'now playing' in menu bar https://kmikiy.github.io/SpotMenu/
 brew cask install spotmenu
+brew cask install focusrite-control # Audio interface Scarlett
 
 # Other
 
