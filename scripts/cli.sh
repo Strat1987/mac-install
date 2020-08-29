@@ -11,7 +11,10 @@ brew tap heroku/brew
 brew install heroku
 # Firebase Command Line Interface
 #npm -g install firebase-tools
+
+# Amazon Web Services
 brew install awscli
+brew install awsebcli
 
 brew tap confluentinc/ccloud
 brew install ccloud

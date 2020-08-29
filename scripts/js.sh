@@ -4,3 +4,5 @@ echo "Installing Javascript tools"
 git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
 # TODO check if using antigen https://antigen.sharats.me/ is a better approach for loading zsh plugins
 brew install yarn
+
+brew install watchman

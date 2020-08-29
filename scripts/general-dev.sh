@@ -5,9 +5,20 @@ brew install htop
 brew install md5sha1sum
 brew install openssl
 brew install openvpn
+
 brew install python
 
 brew cask install termius
+
+# disk
+brew install tree
+brew install ncdu
+
+# search
+brew install ripgrep
+
+# clipboard (paid)
+brew cask install copyclip
 
 # command line HTTP client
 brew install httpie
@@ -16,6 +27,7 @@ brew install httpie
 brew install siege
 
 # REST API testing tool
+brew install jq
 brew cask install postman
 brew cask install insomnia
 
