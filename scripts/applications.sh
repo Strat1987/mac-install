@@ -140,6 +140,9 @@ brew cask install marked
 brew cask install macdown
 brew cask install abricotine
 
+# i18n / translations
+brew cask install deepl
+
 # Graphics tools
 
 brew cask install gimp
