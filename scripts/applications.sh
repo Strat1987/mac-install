@@ -140,6 +140,9 @@ brew cask install marked
 brew cask install macdown
 brew cask install abricotine
 
+# Productivity
+brew cask install notion
+
 # i18n / translations
 brew cask install deepl
 
@@ -175,7 +178,6 @@ brew cask install focusrite-control # Audio interface Scarlett
 
 # Other
 
-brew cask install evernote
 brew cask install garmin-express
 brew cask install kindle
 brew cask install marshallofsound-google-play-music-player
