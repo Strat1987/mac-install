@@ -6,46 +6,46 @@ brew tap homebrew/cask-drivers
 
 # Utilities
 
-brew cask install authy
-brew cask install flux
-brew cask install flycut
-brew cask install spectacle # OR > brew cask install shiftit
-brew cask install karabiner-elements # https://www.nadeau.tv/post/configure-hyper-key-osx/
-brew cask install google-backup-and-sync
-brew cask install dropbox
-brew cask install cheatsheet
-brew cask install macpass
-brew cask install keepassxc
-brew cask install keeweb
-brew cask install enpass
-brew cask install bitwarden
-brew cask install bettertouchtool
-brew cask install go2shell
-brew cask install the-unarchiver
-brew cask install tunnelblick
-brew cask install cyberduck
-brew cask install mountain-duck
-brew cask install mirrordisplays
-brew cask install balenaetcher
-brew cask install disk-inventory-x
-brew cask install arq
-brew cask install charles
-brew cask install coconutbattery
-brew cask install gas-mask # custom HOSTS files that can be dynamically switched
-brew cask install beardedspice
-brew cask install keybase # control Mac Media Keys
-brew cask install vnc-viewer
-brew cask install grandperspective
-brew cask install calibre
-brew cask install iina
-brew cask install anki
-brew cask install homebrew/cask-versions/microsoft-remote-desktop-beta
-brew cask install libreoffice
-brew cask install aerial
+brew install authy
+brew install flux
+brew install flycut
+brew install spectacle # OR > brew install shiftit
+brew install karabiner-elements # https://www.nadeau.tv/post/configure-hyper-key-osx/
+brew install google-drive
+brew install dropbox
+brew install cheatsheet
+brew install macpass
+brew install keepassxc
+brew install keeweb
+brew install enpass
+brew install bitwarden
+brew install bettertouchtool
+brew install go2shell
+brew install the-unarchiver
+brew install tunnelblick
+brew install cyberduck
+brew install mountain-duck
+brew install mirrordisplays
+brew install balenaetcher
+brew install disk-inventory-x
+brew install arq
+brew install charles
+brew install coconutbattery
+brew install gas-mask # custom HOSTS files that can be dynamically switched
+brew install beardedspice
+brew install keybase # control Mac Media Keys
+brew install vnc-viewer
+brew install grandperspective
+brew install calibre
+brew install iina
+brew install anki
+brew install homebrew/cask-versions/microsoft-remote-desktop-beta
+brew install libreoffice
+brew install aerial
 
 # Download client
 
-brew cask install transmission
+brew install transmission
 
 # Use `~/Documents/Torrents` to store incomplete downloads
 defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
@@ -79,50 +79,50 @@ defaults write org.m0k.transmission RandomPort -bool true
 
 # Terminals
 
-brew cask install iterm2
+brew install iterm2
 
 # Browsers
 
-brew cask install google-chrome
-brew cask install firefox
-brew cask install tor-browser
-brew cask install brave-browser
+brew install google-chrome
+brew install firefox
+brew install tor-browser
+brew install brave-browser
 
 brew tap caskroom/versions
-brew cask install google-chrome-canary
+brew install google-chrome-canary
 
-brew cask install chromedriver
+brew install chromedriver
 
 # Communication
 
-brew cask install franz
-brew cask install microsoft-teams
-brew cask install slack
-# brew cask install rambox
-# brew cask install telegram
-brew cask install skype
+brew install franz
+brew install microsoft-teams
+brew install slack
+# brew install rambox
+# brew install telegram
+brew install skype
 
 # (Text) Editors
 
-brew cask install sublime-text
-brew cask install atom
-brew cask install brackets
+brew install sublime-text
+brew install atom
+brew install brackets
 brew install macvim
-brew cask install xmind
-brew cask install mactex
+brew install xmind
+brew install mactex
 
 # Fonts
 brew install fontconfig
 brew install freetype
-brew cask install skyfonts
+brew install skyfonts
 
 # (Code) Editor(s) - IDE > Integrated development environment
 
-brew cask install intellij-idea # Best Java editor out there (does require an active licence).
-# brew cask install intellij-idea-ce # As an alternative you can install the free community edition
-brew cask install eclipse-jee # The second most popular Java editor which is free is Eclipse eclipse-ide
+brew install intellij-idea # Best Java editor out there (does require an active licence).
+# brew install intellij-idea-ce # As an alternative you can install the free community edition
+brew install eclipse-jee # The second most popular Java editor which is free is Eclipse eclipse-ide
 
-brew cask install visual-studio-code # Code editor for front-end
+brew install visual-studio-code # Code editor for front-end
 
 # Set VS Code as default git diff tool over opendiff
 if grep -Fxq "vscode" ~/.gitconfig > /dev/null
@@ -133,64 +133,64 @@ else
 fi
 
 # BPMN Modeler
-brew cask install camunda-modeler
+brew install camunda-modeler
 
 # Markdown
-brew cask install marked
-brew cask install macdown
-brew cask install abricotine
+brew install marked
+brew install macdown
+brew install abricotine
 
 # Productivity
-brew cask install notion
+brew install notion
 
 # i18n / translations
-brew cask install deepl
+brew install deepl
 
 # Graphics tools
 
-brew cask install gimp
-brew cask install skitch
-brew cask install zeplin
-brew cask install pencil
+brew install gimp
+brew install skitch
+brew install zeplin
+brew install pencil
 
 # Video
 
-brew cask install handbrake
+brew install handbrake
 # Homebrew removed formula options as of Homebrew version 2.0
 # so no more using the core ffmpeg formula
 brew tap justinmayer/tap
 brew install justinmayer/tap/ffmpeg --with-chromaprint --with-fdk-aac
 # includes support WebM: ffmpeg -i video.mp4 -strict -2 video.webm
-brew cask install kodi
-brew cask install vlc
+brew install kodi
+brew install vlc
 brew install youtube-dl
 
 # Screen recorder
 
-brew cask install kap
+brew install kap
 
 # Audio
-brew cask install bose-soundtouch
-brew cask install spotify
+brew install bose-soundtouch
+brew install spotify
 # Visualise spotify 'now playing' in menu bar https://kmikiy.github.io/SpotMenu/
-brew cask install spotmenu
-brew cask install focusrite-control # Audio interface Scarlett
+brew install spotmenu
+brew install focusrite-control # Audio interface Scarlett
 
 # Other
 
-brew cask install garmin-express
-brew cask install kindle
-brew cask install marshallofsound-google-play-music-player
+brew install garmin-express
+brew install kindle
+brew install marshallofsound-google-play-music-player
 
 # Gaming
-brew cask install steam
-brew cask install steelseries-engine
-brew cask install discord
-brew cask install twitch
+brew install steam
+brew install steelseries-engine
+brew install discord
+brew install twitch
 
 # Useful scripts
 
-brew cask install veracrypt
+brew install veracrypt
 # VeraCrypt config: by default VeraCrypt will not alter the timestamp of the volume after it has been created
 # This will prevent Cloud syncing from recognizing changes to the volume, and prevent synchronization
 # So: 'uncheck' "Preserve modification timestamp of file containers"
@@ -206,5 +206,5 @@ brew tap buo/cask-upgrade
 
 # Security
 
-brew cask install knockknock
-brew cask install blockblock
+brew install knockknock
+brew install blockblock

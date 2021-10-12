@@ -1,9 +1,9 @@
 echo
 echo "Installing Git and associated tools"
 brew install git
-brew cask install gitkraken
-brew cask install sourcetree
-brew cask install gitup
+brew install gitkraken
+brew install sourcetree
+brew install gitup
 
 echo
 echo "Setting global Git configurations"

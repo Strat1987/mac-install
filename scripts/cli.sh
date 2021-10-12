@@ -5,7 +5,7 @@ echo "Installing CLIs"
 brew install wget
 
 # Google Cloud SDK
-brew cask install google-cloud-sdk
+brew install google-cloud-sdk
 # Heroku CLI
 brew tap heroku/brew
 brew install heroku

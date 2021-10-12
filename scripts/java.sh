@@ -5,11 +5,11 @@ echo
 brew tap AdoptOpenJDK/openjdk # add openjdk tap
 
 echo "Installing Java 8"
-brew cask install adoptopenjdk/openjdk/adoptopenjdk8   # install most commonly production used Java version
+brew install adoptopenjdk/openjdk/adoptopenjdk8   # install most commonly production used Java version
 echo "Installing Java 11"
-brew cask install adoptopenjdk11   # install latest LTS Java version
+brew install adoptopenjdk11   # install latest LTS Java version
 echo "Installing Java 14"
-brew cask install adoptopenjdk14   # install latest Java version
+brew install adoptopenjdk14   # install latest Java version
 
 echo
 echo "Installing jenv to support multiple Java versions"
@@ -49,7 +49,7 @@ jenv global 1.8
 
 jenv doctor
 
-brew cask install visualvm # VisualVM
+brew install visualvm # VisualVM
 
 brew install groovysdk  # Install groovy
 

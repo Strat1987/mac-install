@@ -2,13 +2,13 @@ echo
 echo "Installing general development tools"
 
 brew install htop
-brew install md5sha1sum
+brew install coreutils
 brew install openssl
 brew install openvpn
 
 brew install python
 
-brew cask install termius
+brew install termius
 
 # disk
 brew install tree
@@ -18,7 +18,7 @@ brew install ncdu
 brew install ripgrep
 
 # clipboard (paid)
-brew cask install copyclip
+brew install copyclip
 
 # command line HTTP client
 brew install httpie
@@ -28,38 +28,41 @@ brew install siege
 
 # REST API testing tool
 brew install jq
-brew cask install postman
-brew cask install insomnia
+brew install postman
+brew install insomnia
 
 # Secure tunnels to localhost
-brew cask install ngrok
+brew install ngrok
 
 # DB
-brew cask install postgres # postgresql
+brew install postgres # postgresql
 brew install mariadb # mariadb
 brew install sqlite # sqlite
 
 ## GUIs
-brew cask install dbeaver-community # mysql (can connect to mysql in docker without password)
-brew cask install mysqlworkbench # mysql UI
-brew cask install dbvisualizer
-brew cask install sequel-pro
-brew cask install robo-3t # mongo
-brew cask install db-browser-for-sqlite # sqlite
-brew cask install postico # postgresql UI
-brew cask install mysqlworkbench
+brew install dbeaver-community # mysql (can connect to mysql in docker without password)
+brew install mysqlworkbench # mysql UI
+brew install dbvisualizer
+brew install sequel-pro
+brew install robo-3t # mongo
+brew install db-browser-for-sqlite # sqlite
+brew install postico # postgresql UI
+brew install mysqlworkbench
 
-#brew cask install dash
+#brew install dash
 
-brew cask install graphiql
+brew install graphiql
 
 # Virtual
 
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
+brew install virtualbox
+brew install virtualbox-extension-pack
 
 # Development Environment
-brew cask install vagrant
+brew install vagrant
+
+# Acceptance testing
+brew install gauge
 
 # Servers
 
