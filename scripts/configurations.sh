@@ -1,8 +1,4 @@
 echo
-# prereqs
-
-# OS X Sierra prevents changes to TCC.db, so only enable tccutil when SIP is disabled
-#brew install tccutil
 
 # add loginitems repo https://github.com/OJFord/loginitems
 brew tap OJFord/formulae
@@ -12,7 +8,6 @@ echo "Configuring iTerm"
 cp files/com.googlecode.iterm2.plist ~/Library/Preferences
 
 echo "Configuring ShiftIt"
-#sudo tccutil --insert "com.divisiblebyzero.Spectacle" # Enable Accessibility Settings
 loginitems -a "ShiftIt" -p "/Applications/ShiftIt.app/" # Start at login
 open /Applications/ShiftIt.app
 
@@ -51,7 +46,7 @@ open /Applications/Flux.app/
 #https://github.com/sindresorhus/quick-look-plugins
 echo "Installing QuickLook extensions"
 brew install qlstephen  # QLStephen is a QuickLook plugin to view plain text files without a file extension
-#brew install webpquicklook # WebP
+brew install webpquicklook # WebP
 brew install quicklookapk # Preview Android APK files
 brew install qlcolorcode # Renders source code with syntax highlighting
 brew install qlmarkdown # Renders a preview of a Markdown file
