@@ -18,7 +18,7 @@ brew install ncdu
 brew install ripgrep
 
 # clipboard (paid)
-brew install copyclip
+brew install copyclip # or free brew install flycut
 
 # command line HTTP client
 brew install httpie

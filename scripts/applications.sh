@@ -8,8 +8,7 @@ brew tap homebrew/cask-drivers
 
 brew install authy
 brew install flux
-brew install flycut
-brew install spectacle # OR > brew install shiftit
+brew install shiftit
 brew install karabiner-elements # https://www.nadeau.tv/post/configure-hyper-key-osx/
 brew install google-drive
 brew install dropbox
