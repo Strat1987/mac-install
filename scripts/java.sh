@@ -2,14 +2,13 @@ echo
 echo "Installing Java Development tools"
 
 echo
-brew tap AdoptOpenJDK/openjdk # add openjdk tap
 
-echo "Installing Java 8"
-brew install adoptopenjdk/openjdk/adoptopenjdk8   # install most commonly production used Java version
+echo "Installing Java 17"
+brew install temurin   # install latest LTS Java
 echo "Installing Java 11"
-brew install adoptopenjdk11   # install latest LTS Java version
-echo "Installing Java 14"
-brew install adoptopenjdk14   # install latest Java version
+brew install temurin11   # install previous LTS Java version
+echo "Installing Java 8"
+brew install temurin8   # install older LTS Java version
 
 echo
 echo "Installing jenv to support multiple Java versions"
@@ -44,8 +43,8 @@ for jdk in /Library/Java/JavaVirtualMachines/*/; do
   fi
 done
 
-# Set Java 8 as default
-jenv global 1.8
+# Set Java 11 as default
+jenv global 11
 
 jenv doctor
 
