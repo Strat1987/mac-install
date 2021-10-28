@@ -50,7 +50,6 @@ source ${MY_DIR}/applications.sh
 source ${MY_DIR}/fonts.sh
 source ${MY_DIR}/docker.sh
 source ${MY_DIR}/general-dev.sh
-source ${MY_DIR}/appstore.sh
 source ${MY_DIR}/configurations.sh
 source ${MY_DIR}/configuration-terminal.sh
 source ${MY_DIR}/js.sh
