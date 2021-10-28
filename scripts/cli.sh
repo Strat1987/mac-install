@@ -4,8 +4,11 @@ echo "Installing CLIs"
 # wget
 brew install wget
 
+brew install autojump
+
 # Google Cloud SDK
 brew install google-cloud-sdk
+
 # Heroku CLI
 brew tap heroku/brew
 brew install heroku

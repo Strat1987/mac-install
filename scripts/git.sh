@@ -25,5 +25,3 @@ git config --global credential.helper osxkeychain
 
 git config --global user.name "$FULL_NAME"
 git config --global user.email $EMAIL_ADDRESS
-
-# TODO determine and set-up default merge tool!

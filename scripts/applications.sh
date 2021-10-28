@@ -5,42 +5,48 @@ echo "Installing applications"
 brew tap homebrew/cask-drivers
 
 # Utilities
-
 brew install authy
+brew install bettertouchtool #paid
+brew install cheatsheet
 brew install flux
-brew install shiftit
 brew install karabiner-elements # https://www.nadeau.tv/post/configure-hyper-key-osx/
+brew install shiftit
+brew install the-unarchiver
+
+# File sharing
 brew install google-drive
 brew install dropbox
-brew install cheatsheet
+brew install arq # backup tool
+
+# password management
+brew install lastpass
 brew install macpass
 brew install keepassxc
 brew install keeweb
 brew install enpass
 brew install bitwarden
-brew install bettertouchtool
-brew install go2shell
-brew install the-unarchiver
-brew install tunnelblick
-brew install cyberduck
-brew install mountain-duck
+
+# brew install go2shell # replaced by https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx
+brew install tunnelblick # vpn
+brew install cyberduck # s3 + ftp client
+brew install mountain-duck # paid
 brew install mirrordisplays
-brew install balenaetcher
+brew install balenaetcher # flash OS image to Drive
+
+# Disk management
 brew install disk-inventory-x
-brew install arq
-brew install charles
-brew install coconutbattery
-brew install gas-mask # custom HOSTS files that can be dynamically switched
-brew install beardedspice
-brew install keybase # control Mac Media Keys
-brew install vnc-viewer
 brew install grandperspective
-brew install calibre
-brew install iina
-brew install anki
-brew install homebrew/cask-versions/microsoft-remote-desktop-beta
+
+brew install coconutbattery # Battery check
+brew install gas-mask # custom HOSTS files that can be dynamically switched
+brew install keybase # control Mac Media Keys
+brew install calibre # e-book app
 brew install libreoffice
-brew install aerial
+brew install aerial # screensaver
+
+# Remote desktop
+brew install vnc-viewer
+brew install homebrew/cask-versions/microsoft-remote-desktop-beta
 
 # Download client
 
@@ -105,7 +111,6 @@ brew install skype
 
 brew install sublime-text
 brew install atom
-brew install brackets
 brew install macvim
 brew install xmind
 brew install mactex
@@ -123,14 +128,6 @@ brew install eclipse-jee # The second most popular Java editor which is free is 
 
 brew install visual-studio-code # Code editor for front-end
 
-# Set VS Code as default git diff tool over opendiff
-if grep -Fxq "vscode" ~/.gitconfig > /dev/null
-then
-    echo "vscode is already configured as default GIT diff tool in your ~/.gitconfig"
-else
-    cat files/gitconfig-vscode-default-difftool >> ~/.gitconfig
-fi
-
 # BPMN Modeler
 brew install camunda-modeler
 
@@ -146,40 +143,38 @@ brew install notion
 brew install deepl
 
 # Graphics tools
-
 brew install gimp
 brew install skitch
 brew install zeplin
 brew install pencil
 
 # Video
-
 brew install handbrake
 # Homebrew removed formula options as of Homebrew version 2.0
 # so no more using the core ffmpeg formula
 brew tap justinmayer/tap
 brew install justinmayer/tap/ffmpeg --with-chromaprint --with-fdk-aac
 # includes support WebM: ffmpeg -i video.mp4 -strict -2 video.webm
-brew install kodi
+brew install iina
 brew install vlc
+brew install kodi
 brew install youtube-dl
 
 # Screen recorder
-
 brew install kap
 
 # Audio
-brew install bose-soundtouch
+brew install beardedspice
 brew install spotify
 # Visualise spotify 'now playing' in menu bar https://kmikiy.github.io/SpotMenu/
 brew install spotmenu
+brew install bose-soundtouch
 brew install focusrite-control # Audio interface Scarlett
+brew install marshallofsound-google-play-music-player
 
 # Other
-
 brew install garmin-express
 brew install kindle
-brew install marshallofsound-google-play-music-player
 
 # Gaming
 brew install steam
@@ -187,8 +182,7 @@ brew install steelseries-engine
 brew install discord
 brew install twitch
 
-# Useful scripts
-
+# Encryption
 brew install veracrypt
 # VeraCrypt config: by default VeraCrypt will not alter the timestamp of the volume after it has been created
 # This will prevent Cloud syncing from recognizing changes to the volume, and prevent synchronization
@@ -196,14 +190,8 @@ brew install veracrypt
 # ### cp files/veracrypt-configuration.xml ~/"Library/Application Support/VeraCrypt/Configuration.xml"
 # ditto (OSX-specific app) will create the directory structure that is missing in the destination
 ditto files/veracrypt-configuration.xml ~/"Library/Application Support/VeraCrypt/Configuration.xml"
-
-# Add the brew-cask-upgrade tool: allows to upgrade applications installed with homebrew cask
-# homebrew only has support for 'brew cask outdated', not yet 'brew cask upgrade'
-# See: https://github.com/buo/homebrew-cask-upgrade
-# apps can be updated with 'brew cu app'
-brew tap buo/cask-upgrade
+# or enable System Preferences > Security & privacy > FileVault
 
 # Security
-
 brew install knockknock
 brew install blockblock

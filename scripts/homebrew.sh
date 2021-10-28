@@ -12,8 +12,19 @@ else
 
   echo
   echo "Adding Homebrew's sbin to your PATH..."
-  echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bashrc
-  echo "if [ -f ~/.bashrc ]; then source ~/.bashrc fi" >> ~/.bash_profile
+
+  if grep -F "/usr/local/sbin" ~/.bashrc > /dev/null
+  then
+      echo "homebrew is already added to bashrc file"
+  else
+    echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bashrc
+  fi
+  if grep -F "bashrc" ~/.bash_profile > /dev/null
+  then
+      echo "bashrc is already sourced in bash_profile"
+  else
+    echo "if [ -f ~/.bashrc ]; then source ~/.bashrc fi" >> ~/.bash_profile
+  fi
 
   currentDir=${pwd}
   cd ~
@@ -24,7 +35,7 @@ else
   echo
   echo "Installing Homebrew services..."
   brew tap homebrew/services
-`
+
 fi
 
 echo

@@ -3,6 +3,7 @@ echo "Installing general development tools"
 
 brew install htop
 brew install coreutils
+
 brew install openssl
 brew install openvpn
 
@@ -22,6 +23,7 @@ brew install copyclip # or free brew install flycut
 
 # command line HTTP client
 brew install httpie
+brew install charles # HTTP Proxy
 
 # command line http benchmarking
 brew install siege
@@ -48,13 +50,10 @@ brew install robo-3t # mongo
 brew install db-browser-for-sqlite # sqlite
 brew install postico # postgresql UI
 brew install mysqlworkbench
-
-#brew install dash
-
+brew install dash # documentation
 brew install graphiql
 
 # Virtual
-
 brew install virtualbox
 brew install virtualbox-extension-pack
 
@@ -63,7 +62,3 @@ brew install vagrant
 
 # Acceptance testing
 brew install gauge
-
-# Servers
-
-# Docker containers instead of locally installed servers

@@ -14,8 +14,13 @@ echo
 echo "Installing jenv to support multiple Java versions"
 brew install jenv # Support multiple Java versions (https://www.jenv.be/)
 
-echo 'export PATH="$HOME/.jenv/bin:$PATH"' >>~/.bashrc
-echo 'eval "$(jenv init -)"' >>~/.bashrc
+if grep -F "jenv" ~/.bashrc > /dev/null
+then
+    echo "Jenv is already added to bashrc"
+else
+  echo 'export PATH="$HOME/.jenv/bin:$PATH"' >>~/.bashrc
+  echo 'eval "$(jenv init -)"' >>~/.bashrc
+fi
 
 # - reload bash dotifiles to be able to enable jenv plugins and add java versions
 currentDir=${pwd}
