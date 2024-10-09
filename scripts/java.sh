@@ -34,6 +34,7 @@ jenv doctor
 # Force jenv to update JAVA_HOME
 jenv enable-plugin export
 
+brew install jbangdev/tap/jbang
 brew install maven      # Leading Java build tool
 brew install gradle     # Alternative Java build tool
 
