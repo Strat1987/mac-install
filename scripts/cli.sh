@@ -18,9 +18,9 @@ brew install heroku
 brew install awscli
 brew install awsebcli
 
-brew tap confluent/tap
-brew trust --formula confluent/tap/cli
-brew install --cask confluent/tap/cli
+brew tap confluentinc/tap
+brew trust --formula confluentinc/tap/cli
+brew install confluentinc/tap/cli
 
 brew install kubernetes-cli
 
