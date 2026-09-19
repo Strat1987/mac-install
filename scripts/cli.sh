@@ -13,16 +13,14 @@ brew install google-cloud-sdk
 brew tap heroku/brew
 brew trust --formula heroku/brew/heroku
 brew install heroku
-# Firebase Command Line Interface
-#npm -g install firebase-tools
 
 # Amazon Web Services
 brew install awscli
 brew install awsebcli
 
-brew tap confluent/tap/cli
-brew trust --formula confluent/tap/cli/confluent-cli
-brew install --cask confluent-cli
+brew tap confluent/tap
+brew trust --formula confluent/tap/cli
+brew install --cask confluent/tap/cli
 
 brew install kubernetes-cli
 

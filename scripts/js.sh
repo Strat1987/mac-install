@@ -6,3 +6,7 @@ git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-
 brew install yarn
 
 brew install watchman
+
+# Firebase Command Line Interface
+echo "Installing Firebase tools"
+npm -g install firebase-tools
