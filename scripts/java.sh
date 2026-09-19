@@ -25,6 +25,8 @@ fi
 # - reload bash dotifiles to be able to enable jenv plugins and add java versions
 currentDir=${pwd}
 cd ~
+touch ~/.bash_profile
+touch ~/.bashrc
 . .bash_profile
 . .bashrc
 cd $currentDir
