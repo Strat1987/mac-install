@@ -60,5 +60,6 @@ brew install visualvm # VisualVM
 
 brew install groovysdk  # Install groovy
 
+brew trust pivotal/tap # Install Spring boot
 brew tap pivotal/tap
-brew install springboot # Install Spring boot
+brew install springboot
