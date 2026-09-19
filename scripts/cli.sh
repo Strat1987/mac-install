@@ -25,4 +25,4 @@ brew install --cask confluent/tap/cli
 brew install kubernetes-cli
 
 # Speed test CLI
-brew install speedtest-cli
+brew install speedtest-go
