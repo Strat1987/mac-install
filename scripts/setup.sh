@@ -11,7 +11,8 @@ MY_DIR="$(dirname "$0")"
 
 clear
 
-echo "Hello, "$USER".  This script will install your mac. It asks for your email address and phone number in order to customize the Git config and the lost&found message on the login screen"
+echo "Hello, "$USER".  This script will install your mac operating from "$MY_DIR
+echo "It asks for your email address and phone number in order to customize the Git config and the lost&found message on the login screen"
 
 echo "Reading config from credentials.cfg ...."
 source ./credentials.cfg > /dev/null 2>&1
@@ -36,7 +37,7 @@ echo "Your e-mail address: $emailaddress"
 echo "Your Phone number: $phonenumber"
 
 echo
-echo "Setting up machine..."
+echo "Setting up machine using ... $MY_DIR"
 
 source ${MY_DIR}/xcode-license.sh
 

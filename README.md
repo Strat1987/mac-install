@@ -4,9 +4,9 @@ My OS X on MacBook Pro install.
 
 ## Getting Started
 
-- Currently tested against [Mojave](https://www.apple.com/macos/mojave/)
+- Currently tested against [Tahoe 26.6](https://www.apple.com/macos/)
     - These scripts might work on previous versions, down to [Sierra](http://www.apple.com/macos/sierra/), but are maintained with only the latest macOS in mind
-- Install [Xcode 10](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
+- Install [Xcode 27](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 
 
 Open up the OS X Terminal and run the following commands:
@@ -16,6 +16,7 @@ mkdir -p ~/workspace
 cd ~/workspace
 git clone https://github.com/Strat1987/mac-install.git
 cd mac-install
+touch credentials.cfg
 ```
 
 ### Setup Machine
