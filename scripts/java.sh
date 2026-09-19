@@ -3,12 +3,12 @@ echo "Installing Java Development tools"
 
 echo
 
-echo "Installing Java 17"
-brew install temurin   # install latest LTS Java
-echo "Installing Java 11"
-brew install temurin11   # install previous LTS Java version
-echo "Installing Java 8"
-brew install temurin8   # install older LTS Java version
+echo "Installing Java 26"
+brew install temurin   # install latest Java
+echo "Installing Java 25"
+brew install temurin@25   # install previous LTS Java version
+echo "Installing Java 21"
+brew install temurin@21   # install older LTS Java version
 
 echo
 echo "Installing jenv to support multiple Java versions"
@@ -49,8 +49,8 @@ for jdk in /Library/Java/JavaVirtualMachines/*/; do
   fi
 done
 
-# Set Java 11 as default
-jenv global 11
+# Set Java 26 as default
+jenv global 26
 
 jenv doctor
 
