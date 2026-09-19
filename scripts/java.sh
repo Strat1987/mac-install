@@ -24,15 +24,15 @@ fi
 
 # - reload bash dotifiles to be able to enable jenv plugins and add java versions
 # shellcheck disable=SC2154
-currentDir=${pwd}
+currentDir=$PWD
 cd ~
 touch ~/.bash_profile
 touch ~/.bashrc
 . .bash_profile
 . .bashrc
 # shellcheck disable=SC2164
-cd "$currentDir"
 echo "set current path to $currentDir"
+cd $currentDir
 
 jenv doctor
 
