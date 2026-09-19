@@ -19,8 +19,7 @@ brew install heroku
 brew install awscli
 brew install awsebcli
 
-brew tap confluentinc/ccloud
-brew install ccloud
+brew install --cask confluent-cli
 
 brew install kubernetes-cli
 
