@@ -143,7 +143,7 @@ brew install deepl
 
 # Graphics tools
 brew install gimp
-brew install skitch
+brew install sketch
 brew install zeplin
 brew install pencil
 
