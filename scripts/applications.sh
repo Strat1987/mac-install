@@ -29,7 +29,9 @@ brew install bitwarden
 brew install tunnelblick # vpn
 brew install cyberduck # s3 + ftp client
 brew install mountain-duck # paid
-brew install mirrordisplays
+brew tap fcanas/tap
+brew trust --formula fcanas/tap/mirror-displays
+brew install mirror-displays
 brew install balenaetcher # flash OS image to Drive
 
 # Disk management
