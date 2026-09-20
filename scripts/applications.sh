@@ -6,7 +6,7 @@ brew tap jmhobbs/tools
 brew trust --formula jmhobbs/tools/authy-cli
 brew install jmhobbs/tools/authy-cli
 brew install bettertouchtool #paid
-brew install cheatsheet
+brew install keyclu
 brew install flux
 brew install karabiner-elements # https://www.nadeau.tv/post/configure-hyper-key-osx/
 brew install shiftit
