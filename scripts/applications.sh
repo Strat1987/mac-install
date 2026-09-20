@@ -1,9 +1,6 @@
 echo
 echo "Installing applications"
 
-# Enable installation of cask drivers
-brew tap homebrew/cask-drivers
-
 # Utilities
 brew install authy
 brew install bettertouchtool #paid
