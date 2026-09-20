@@ -35,8 +35,8 @@ brew install mirror-displays
 brew install balenaetcher # flash OS image to Drive
 
 # Disk management
-brew install disk-inventory-x
-brew install grandperspective
+brew install radix
+brew install neodisk
 
 brew install coconutbattery # Battery check
 brew install gas-mask # custom HOSTS files that can be dynamically switched
