@@ -134,7 +134,6 @@ brew install camunda-modeler
 # Markdown
 brew install marked
 brew install macdown-3000
-brew install abricotine
 
 # Productivity
 brew install notion
