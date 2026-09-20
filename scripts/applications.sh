@@ -167,7 +167,7 @@ brew install beardie
 brew install spotify
 # Visualise spotify 'now playing' in menu bar https://kmikiy.github.io/SpotMenu/
 brew install spotmenu
-brew install bose-soundtouch
+brew install bose-updater
 brew install focusrite-control # Audio interface Scarlett
 brew install marshallofsound-google-play-music-player
 
