@@ -138,6 +138,15 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
 
 ###############################################################################
+# Desktop and Dock
+###############################################################################
+defaults write com.apple.dock orientation -string "Left"
+defaults write com.apple.dock tilesize -integer 24
+defaults write com.apple.dock largesize -integer 40
+defaults write com.apple.dock minimize-to-application -bool true
+killall Dock
+
+###############################################################################
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
 
