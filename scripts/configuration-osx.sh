@@ -140,7 +140,7 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 ###############################################################################
 # Desktop and Dock
 ###############################################################################
-defaults write com.apple.dock orientation -string "Left"
+defaults write com.apple.dock orientation -string "left"
 defaults write com.apple.dock tilesize -integer 24
 defaults write com.apple.dock largesize -integer 40
 defaults write com.apple.dock minimize-to-application -bool true
