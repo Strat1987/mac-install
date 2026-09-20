@@ -95,10 +95,9 @@ brew install firefox
 brew install tor-browser
 brew install brave-browser
 
-brew tap caskroom/versions
-brew install google-chrome-canary
+brew install google-chrome@canary
 
-brew install chromedriver
+# brew install chromedriver no longer relevant
 
 # Communication
 
