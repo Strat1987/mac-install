@@ -157,7 +157,7 @@ brew install handbrake
 brew install iina
 brew install vlc
 brew install kodi
-brew install youtube-dl
+brew install vidl
 
 # Screen recorder
 brew install kap
