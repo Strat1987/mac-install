@@ -163,7 +163,7 @@ brew install vidl
 brew install kap
 
 # Audio
-brew install beardedspice
+brew install beardie
 brew install spotify
 # Visualise spotify 'now playing' in menu bar https://kmikiy.github.io/SpotMenu/
 brew install spotmenu
