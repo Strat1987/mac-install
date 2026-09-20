@@ -45,7 +45,7 @@ brew install sqlite # sqlite
 brew install dbeaver-community # mysql (can connect to mysql in docker without password)
 brew install mysqlworkbench # mysql UI
 brew install dbvisualizer
-brew install sequel-pro
+brew install sequel-ace
 brew install robo-3t # mongo
 brew install db-browser-for-sqlite # sqlite
 brew install postico # postgresql UI
