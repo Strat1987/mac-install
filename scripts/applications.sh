@@ -151,6 +151,7 @@ brew install handbrake
 # Homebrew removed formula options as of Homebrew version 2.0
 # so no more using the core ffmpeg formula
 brew tap justinmayer/tap
+brew trust --formula justinmayer/tap/ffmpeg
 brew install justinmayer/tap/ffmpeg --with-chromaprint --with-fdk-aac
 # includes support WebM: ffmpeg -i video.mp4 -strict -2 video.webm
 brew install iina
