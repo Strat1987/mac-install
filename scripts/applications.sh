@@ -169,7 +169,6 @@ brew install spotify
 brew install spotmenu
 brew install bose-updater
 brew install focusrite-control # Audio interface Scarlett
-brew install marshallofsound-google-play-music-player
 
 # Other
 brew install garmin-express
