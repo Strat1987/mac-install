@@ -158,16 +158,16 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # 11: Launchpad
 # 12: Notification Center
 
-# Show the notification centre if we're in the top-right hot corner.
-defaults write com.apple.dock wvous-tr-corner -int 12
+# Show the desktop if we're in the top-right hot corner.
+defaults write com.apple.dock wvous-tr-corner -int 4
 defaults write com.apple.dock wvous-tr-modifier -int 0
 
 # Show the Desktop if we're in the bottom-right hot corner.
 defaults write com.apple.dock wvous-br-corner -int 4
 defaults write com.apple.dock wvous-br-modifier -int 0
 
-# Show the Dashboard if we're in the top-right hot corner.
-defaults write com.apple.dock wvous-tl-corner -int 7
+# Show the Dashboard if we're in the top-left hot corner.
+defaults write com.apple.dock wvous-tl-corner -int 11
 defaults write com.apple.dock wvous-tl-modifier -int 0
 
 # Show the Mission Control if we're in the bottom-left hot corner.
