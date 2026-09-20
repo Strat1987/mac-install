@@ -118,7 +118,7 @@ brew install xmind
 # Fonts
 brew install fontconfig
 brew install freetype
-brew install skyfonts
+brew install monotype
 
 # (Code) Editor(s) - IDE > Integrated development environment
 
