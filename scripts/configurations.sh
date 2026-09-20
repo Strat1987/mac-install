@@ -36,7 +36,4 @@ open /Applications/CopyClip\ 2.app/
 echo "Installing QuickLook extensions"
 brew install qlstephen  # QLStephen is a QuickLook plugin to view plain text files without a file extension
 brew install webpquicklook # WebP
-brew install quicklookapk # Preview Android APK files
-brew install qlcolorcode # Renders source code with syntax highlighting
 brew install qlmarkdown # Renders a preview of a Markdown file
-brew install quicklook-json # Renders a preview of a Json file
