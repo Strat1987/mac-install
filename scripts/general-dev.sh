@@ -51,7 +51,6 @@ brew install db-browser-for-sqlite # sqlite
 brew install postico # postgresql UI
 brew install mysqlworkbench
 brew install dash # documentation
-brew install graphiql
 
 # Virtual
 brew install virtualbox
