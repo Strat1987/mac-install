@@ -176,7 +176,7 @@ brew install focusrite-control # Audio interface Scarlett
 
 # Gaming
 brew install steam
-brew install steelseries-engine
+brew install steelseries-gg
 brew install discord
 brew install twitch
 
