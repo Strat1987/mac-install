@@ -54,7 +54,10 @@ brew install dash # documentation
 
 # Virtual
 brew install virtualbox
-brew install virtualbox-extension-pack
+echo "#### install virtualbox-extension-packOracle VirtualBox Downloads. ####"
+echo "Zorg dat de versie exact overeenkomt met je geïnstalleerde VirtualBox-versie."
+echo "!!!! Open VirtualBox.Ga naar File > Tools > Extension Pack Manager (of Preferences > Extensions)."
+echo "Klik op het Install-icoon (het plusje), selecteer het gedownloade .vbox-extpack-bestand en bevestig de licentie. !!!!"
 
 # Development Environment
 brew install vagrant
