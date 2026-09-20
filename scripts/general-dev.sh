@@ -46,7 +46,7 @@ brew install dbeaver-community # mysql (can connect to mysql in docker without p
 brew install mysqlworkbench # mysql UI
 brew install dbvisualizer
 brew install sequel-ace
-brew install robo-3t # mongo
+brew install studio-3t-community # mongo
 brew install db-browser-for-sqlite # sqlite
 brew install postico # postgresql UI
 brew install mysqlworkbench
