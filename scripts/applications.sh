@@ -133,7 +133,7 @@ brew install camunda-modeler
 
 # Markdown
 brew install marked
-brew install macdown
+brew install macdown-3000
 brew install abricotine
 
 # Productivity
