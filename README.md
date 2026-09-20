@@ -24,7 +24,7 @@ touch credentials.cfg
 If you're setting up a machine run the following:
 
 
-First run the [manual installation instructions](files/OSX_manual_installation_instructions.pdf)
+First run the [manual installation instructions](files/Mac%20OS%20X%20Tahoe%20Install.pdf)
 
 followed by automated machine setup using the shell script below
 
