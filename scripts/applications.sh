@@ -2,7 +2,9 @@ echo
 echo "Installing applications"
 
 # Utilities
-brew install authy
+brew tap jmhobbs/tools
+brew trust --formula jmhobbs/tools/authy-cli
+brew install jmhobbs/tools/authy-cli
 brew install bettertouchtool #paid
 brew install cheatsheet
 brew install flux
