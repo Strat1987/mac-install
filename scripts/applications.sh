@@ -172,7 +172,7 @@ brew install focusrite-control # Audio interface Scarlett
 
 # Other
 # brew install garmin-express - working on silicon compatible version for m1-5 macbooks
-brew install kindle
+# brew install kindle - I don't own a kindle e-reader
 
 # Gaming
 brew install steam
