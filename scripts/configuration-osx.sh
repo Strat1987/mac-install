@@ -147,12 +147,13 @@ defaults write com.apple.dock minimize-to-application -bool true
 killall Dock
 
 ###############################################################################
-# Dock, Dashboard, and hot corners                                            #
+# Dark mode                                            #
 ###############################################################################
+osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to true'
 
-# Automatically hide and show the Dock
-# defaults write com.apple.dock autohide -bool true
-# killall Dock
+###############################################################################
+# Hot corners                                            #
+###############################################################################
 
 # Hot corners
 # Possible values:
