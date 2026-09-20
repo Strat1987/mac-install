@@ -39,7 +39,8 @@ brew install radix
 brew install neodisk
 
 brew install coconutbattery # Battery check
-brew install gas-mask # custom HOSTS files that can be dynamically switched
+brew install hostfileapp # custom HOSTS files that can be dynamically switched
+brew install hostess
 brew install keybase # control Mac Media Keys
 brew install calibre # e-book app
 brew install libreoffice
