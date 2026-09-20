@@ -15,7 +15,8 @@ brew install font-londrina-shadow
 brew install font-londrina-sketch
 brew install font-londrina-solid
 brew install font-lobster
-brew install font-source-sans-pro
+brew install font-source-sans-3
+brew install font-source-code-pro
 
 # Fonts with programming ligatures
 brew install font-fira-code
