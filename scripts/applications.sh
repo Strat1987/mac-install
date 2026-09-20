@@ -9,7 +9,7 @@ brew install bettertouchtool #paid
 brew install keyclu
 brew install flux
 brew install karabiner-elements # https://www.nadeau.tv/post/configure-hyper-key-osx/
-brew install shiftit
+brew install rectangle
 brew install the-unarchiver
 
 # File sharing
