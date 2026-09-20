@@ -104,9 +104,9 @@ brew install google-chrome@canary
 brew install franz
 brew install microsoft-teams
 brew install slack
-# brew install rambox
-# brew install telegram
-brew install skype
+# brew install rambox never tried it beforen, similar to Franz
+# brew install telegram not currently in use
+# brew install skype obsolete
 
 # (Text) Editors
 
