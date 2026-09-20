@@ -3,9 +3,6 @@ echo "Installing fonts"
 
 # Fonts
 
-# Installing fonts tap
-brew tap homebrew/cask-fonts
-
 brew install font-inconsolata
 brew install font-roboto
 brew install font-roboto-mono
