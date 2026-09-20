@@ -113,7 +113,7 @@ brew install slack
 brew install sublime-text
 brew install macvim
 brew install xmind
-brew install mactex
+# brew install mactex no need
 
 # Fonts
 brew install fontconfig
