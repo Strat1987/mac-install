@@ -2,6 +2,7 @@ echo
 
 # add loginitems repo https://github.com/OJFord/loginitems
 brew tap OJFord/formulae
+brew trust --formula ojford/formulae/loginitems
 brew install loginitems
 
 echo "Configuring iTerm"
