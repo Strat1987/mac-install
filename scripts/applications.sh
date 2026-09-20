@@ -178,7 +178,6 @@ brew install focusrite-control # Audio interface Scarlett
 brew install steam
 brew install steelseries-gg
 brew install discord
-brew install twitch
 
 # Encryption
 brew install veracrypt
