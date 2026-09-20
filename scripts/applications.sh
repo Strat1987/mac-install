@@ -111,7 +111,6 @@ brew install slack
 # (Text) Editors
 
 brew install sublime-text
-brew install atom
 brew install macvim
 brew install xmind
 brew install mactex
