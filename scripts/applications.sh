@@ -145,7 +145,6 @@ brew install deepl
 brew install gimp
 brew install sketch
 brew install zeplin
-brew install pencil
 
 # Video
 brew install handbrake
