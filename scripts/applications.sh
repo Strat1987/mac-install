@@ -48,7 +48,7 @@ brew install aerial # screensaver
 
 # Remote desktop
 brew install vnc-viewer
-brew install homebrew/cask-versions/microsoft-remote-desktop-beta
+brew install windows-app
 
 # Download client
 
