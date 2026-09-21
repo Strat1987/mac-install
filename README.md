@@ -43,9 +43,11 @@ Keeping the machine up to date:
 
 This will :  
 
-- update macOS software
-- update & upgrade homebrew packages
+- Install, update & upgrade applications using homebrew packages
+- update macOS settings
+- Set-up java using jenv
 - update npm
+- enhance zsh terminal
 
 ### Info
 
