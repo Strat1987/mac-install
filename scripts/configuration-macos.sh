@@ -1,5 +1,5 @@
 echo
-echo 'Customizing OS X configuration'
+echo 'Customizing Mac OS configuration'
 
 if [ -z "${fullname}" ]; then
     FULL_NAME=$1

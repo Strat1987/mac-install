@@ -25,7 +25,6 @@ brew install keeweb
 brew install enpass
 brew install bitwarden
 
-# brew install go2shell # replaced by https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx
 brew install tunnelblick # vpn
 brew install cyberduck # s3 + ftp client
 brew install mountain-duck # paid
@@ -185,7 +184,7 @@ brew install veracrypt
 # This will prevent Cloud syncing from recognizing changes to the volume, and prevent synchronization
 # So: 'uncheck' "Preserve modification timestamp of file containers"
 # ### cp files/veracrypt-configuration.xml ~/"Library/Application Support/VeraCrypt/Configuration.xml"
-# ditto (OSX-specific app) will create the directory structure that is missing in the destination
+# ditto (Mac OS-specific app) will create the directory structure that is missing in the destination
 ditto files/veracrypt-configuration.xml ~/"Library/Application Support/VeraCrypt/Configuration.xml"
 # or enable System Preferences > Security & privacy > FileVault
 
