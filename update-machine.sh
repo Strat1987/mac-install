@@ -15,11 +15,6 @@ brew upgrade
 brew cleanup
 
 echo
-echo "- Updating \"apm\" -"
-apm update --no-confirm
-apm clean
-
-echo
 echo "- Updating \"npm\" -"
 npm update -g
 

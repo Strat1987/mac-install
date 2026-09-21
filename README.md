@@ -45,7 +45,7 @@ This will :
 
 - update macOS software
 - update & upgrade homebrew packages
-- update npm / apm
+- update npm
 
 ### Info
 

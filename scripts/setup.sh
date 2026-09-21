@@ -36,8 +36,11 @@ echo "Your full name: $fullname"
 echo "Your e-mail address: $emailaddress"
 echo "Your Phone number: $phonenumber"
 
+START_DATE=$(date +"%d.%m.%Y | %H:%M:%S")
+SECONDS=0
+
 echo
-echo "Setting up machine using ... $MY_DIR"
+echo "Setting up machine using ... $MY_DIR for this machine started at: $START_DATE ---"
 
 source ${MY_DIR}/xcode-license.sh
 
@@ -56,3 +59,10 @@ source ${MY_DIR}/configuration-terminal.sh
 source ${MY_DIR}/js.sh
 source ${MY_DIR}/reload-terminal.sh
 source ${MY_DIR}/finished.sh
+
+END_DATE=$(date +"%d.%m.%Y | %H:%M:%S")
+ELAPSED=" $(($SECONDS / 3600))hrs $((($SECONDS / 60) % 60))min $(($SECONDS % 60))sec"
+echo
+echo "--- Installer for macOS finished at: $END_DATE ---"
+echo
+echo "--- Installer for macOS took: $ELAPSED ---"
