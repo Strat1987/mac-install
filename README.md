@@ -1,8 +1,9 @@
 # mac-install
 
-My OS X on MacBook Pro install.
+My Mac OS on MacBook Pro install.
+
 The purpose of this repository is to install a bunch of useful tools for developers following some best practices.
-It heavily relies on brew as a package manager to make sure you can easily update those tools.
+It heavily relies on [Homebrew](https://brew.sh/) as a package manager to make sure you can easily update those tools.
 
 ## Getting Started
 
@@ -31,7 +32,7 @@ First run the automated machine setup using the shell script below
 ./setup-machine.sh
 ```
 
-You can verify some OS X settings using the [manual installation instructions](files/Mac%20OS%20X%20Tahoe%20Install.pdf)
+You can verify some Mac OS settings using the [manual installation instructions](files/Mac%20OS%20Tahoe%20Install.pdf)
 
 ### Maintain Machine
 
