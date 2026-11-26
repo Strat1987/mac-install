@@ -114,6 +114,9 @@ brew install macvim
 brew install xmind
 # brew install mactex no need
 
+# Finance
+brew install homebank
+
 # Fonts
 brew install fontconfig
 brew install freetype
