@@ -5,6 +5,8 @@ brew install htop
 brew install coreutils
 
 brew install openssl
+brew link openssl
+
 brew install openvpn
 
 brew install python

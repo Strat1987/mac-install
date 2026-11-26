@@ -32,8 +32,4 @@ echo "Configuring CopyClip 2"
 loginitems -a "CopyClip 2" -p "/Applications/CopyClip\ 2.app/" # Start at login
 open /Applications/CopyClip\ 2.app/
 
-#https://github.com/sindresorhus/quick-look-plugins
-echo "Installing QuickLook extensions"
-brew install qlstephen  # QLStephen is a QuickLook plugin to view plain text files without a file extension
-brew install webpquicklook # WebP
 brew install qlmarkdown # Renders a preview of a Markdown file

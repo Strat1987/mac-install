@@ -10,3 +10,6 @@ cat ~/.bashrc >> ~/.zshrc
 
 # set Oh My ZSH plugins
 sed -i '.bak' 's/plugins=.*/plugins=(common-aliases docker git mvn npm macos vscode zsh-nvm yarn)/' ~/.zshrc
+
+echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/sbin:$PATH"' >> ~/.zshrc
